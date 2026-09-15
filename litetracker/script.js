@@ -1,3 +1,4 @@
+// Valib sõnade massiivist juhusliku sõna.
 const words = [
     {
         estonian: "hajusrakendus",
