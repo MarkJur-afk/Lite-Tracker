@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hajusrakenduste sõnavara kontroll</title>
+</head>
+<body>
+
+<h1>Hajusrakenduste sõnavara kontroll</h1>
+
+<p>
+  Kontrolli oma teadmisi hajusrakenduste teemalise sõnavara kohta.
+</p>
+
+<table border="1">
+  <thead>
+  <tr>
+    <th>Eesti → Vene</th>
+    <th>Vene → Eesti</th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <tr>
+    <!-- Eesti sõna ja vastuse kontroll -->
+    <td>
+      <h2>Eesti sõna</h2>
+
+      <p id="estonianWord">Sõna</p>
+
+      <input
+              type="text"
+              id="russianAnswer"
+              placeholder="Kirjuta vene tõlge"
+      >
+
+      <button onclick="checkEstonianToRussian()">
+        Kontrolli
+      </button>
+
+      <p id="etRuResult"></p>
+
+      <button onclick="newEstonianWord()">
+        Uus sõna
+      </button>
+    </td>
+
+    <!-- Vene sõna ja vastuse kontroll -->
+    <td>
+      <h2>Vene sõna</h2>
+
+      <p id="russianWord">Слово</p>
+
+      <input
+              type="text"
+              id="estonianAnswer"
+              placeholder="Kirjuta eesti tõlge"
+      >
+
+      <button onclick="checkRussianToEstonian()">
+        Kontrolli
+      </button>
+
+      <p id="ruEtResult"></p>
+
+      <button onclick="newRussianWord()">
+        Новое слово
+      </button>
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+<h2>Tulemus</h2>
+
+<p id="score">Õiged vastused: 0</p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
