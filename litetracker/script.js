@@ -25,8 +25,8 @@ const words = [
         russian: "узел"
     },
     {
-        estonian: "võrk",
-        russian: "сеть"
+        estonian: "tulemüür",
+        russian: "брандмауэр"
     },
     {
         estonian: "andmebaas",
