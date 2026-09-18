@@ -6,8 +6,8 @@
 
 body {
   font-family: Arial, sans-serif;
-  background: #1a1a2e;
-  color: #e0e0e0;
+  background: #0d2b1d;
+  color: #d4f5e2;
   padding: 30px;
 }
 
@@ -17,21 +17,21 @@ h1 {
 
 body > p {
   margin-bottom: 20px;
-  color: #a0a0b0;
+  color: #7dcea0;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
-  background: #16213e;
+  background: #0a3d22;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 th {
-  background: #0f3460;
-  color: #e94560;
+  background: #145a32;
+  color: #2ecc71;
   padding: 12px;
   text-align: left;
 }
@@ -39,7 +39,7 @@ th {
 td {
   padding: 20px;
   vertical-align: top;
-  border-top: 1px solid #0f3460;
+  border-top: 1px solid #145a32;
   width: 50%;
 }
 
@@ -57,9 +57,9 @@ p[id$="Word"] {
 input[type="text"] {
   width: 100%;
   padding: 8px 10px;
-  border: 1px solid #0f3460;
-  background: #1a1a2e;
-  color: #e0e0e0;
+  border: 1px solid #145a32;
+  background: #0d2b1d;
+  color: #d4f5e2;
   border-radius: 4px;
   margin-bottom: 10px;
   font-size: 1rem;
@@ -72,13 +72,13 @@ button {
   cursor: pointer;
   font-size: 0.95rem;
   margin-right: 6px;
-  background: #e94560;
+  background: #27ae60;
   color: #fff;
   transition: background 0.2s;
 }
 
 button:hover {
-  background: #c73652;
+  background: #1e8449;
 }
 
 p[id$="Result"] {
